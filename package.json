@@ -1,0 +1,34 @@
+{
+  "name": "cmdguard-cli",
+  "version": "0.1.0",
+  "description": "Lightweight CLI tool that analyzes shell commands for safety risks before execution",
+  "type": "module",
+  "main": "bin/cmdguard.js",
+  "bin": {
+    "cmdguard": "bin/cmdguard.js"
+  },
+  "scripts": {
+    "start": "node bin/cmdguard.js",
+    "test": "node --test test/**/*.test.js",
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "cli",
+    "command",
+    "safety",
+    "shell",
+    "risk-analysis"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^12.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
