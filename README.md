@@ -2,6 +2,10 @@
 
 A lightweight Node.js CLI tool that analyzes shell commands for safety risks before execution. It provides colored risk warnings, suggests safer alternatives, and optionally executes confirmed commands.
 
+<a href="public/cmd-guard-demo.mov">
+  <img src="public/cmd-guard-walkthrough-thumb.svg" alt="Watch cmdguard walkthrough" width="640" />
+</a>
+
 ## Features
 
 - 🛡️ **Analyzes commands for risks** - Data loss, permission issues, security vulnerabilities, resource cleanup hazards
@@ -47,6 +51,18 @@ cmdguard "git push --force" --simulate
 ```bash
 cmdguard "chmod 777 file.txt" --explain
 ```
+
+## Walkthrough
+
+Watch the short walkthrough video to see cmdguard in action:
+
+<video src="public/cmd-guard-demo.mov" controls width="640" poster="public/cmd-guard-walkthrough-thumb.svg">
+  Your browser does not support embedded videos. 
+  You can download and watch it here: <a href="public/cmd-guard-demo.mov">public/cmd-guard-demo.mov</a>.
+  
+</video>
+
+If the embedded player doesn’t load, use this direct link: [public/cmd-guard-demo.mov](public/cmd-guard-demo.mov)
 
 ## Examples
 
