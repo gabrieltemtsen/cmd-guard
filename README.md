@@ -2,7 +2,7 @@
 
 A lightweight Node.js CLI tool that analyzes shell commands for safety risks before execution. It provides colored risk warnings, suggests safer alternatives, and optionally executes confirmed commands.
 
-![cmdguard walkthrough](public/cmd-guard-demo-ezgif.com-optimize.gif)
+![cmdguard walkthrough](https://github.com/gabrieltemtsen/cmd-guard/raw/feature/readme-walkthrough-video/public/cmd-guard-demo-ezgif.com-optimize.gif)
 
 ## Features
 
@@ -54,9 +54,9 @@ cmdguard "chmod 777 file.txt" --explain
 
 Watch the quick walkthrough (GIF):
 
-![cmdguard walkthrough GIF](public/cmd-guard-demo-ezgif.com-optimize.gif)
+![cmdguard walkthrough GIF](https://github.com/gabrieltemtsen/cmd-guard/raw/feature/readme-walkthrough-video/public/cmd-guard-demo-ezgif.com-optimize.gif)
 
-If the image doesn’t load, open directly: [public/cmd-guard-demo-ezgif.com-optimize.gif](public/cmd-guard-demo-ezgif.com-optimize.gif)
+If the image doesn’t load, open directly: https://github.com/gabrieltemtsen/cmd-guard/raw/feature/readme-walkthrough-video/public/cmd-guard-demo-ezgif.com-optimize.gif
 
 ## Examples
 
