@@ -10,7 +10,8 @@
   "scripts": {
     "start": "node bin/cmdguard.js",
     "test": "node --test test/**/*.test.js",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "convert:video": "node scripts/convert-video.cjs"
   },
   "keywords": [
     "cli",
@@ -26,7 +27,10 @@
     "commander": "^12.1.0"
   },
   "devDependencies": {
-    "eslint": "^8.57.0"
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "@ffprobe-installer/ffprobe": "^2.1.2",
+    "eslint": "^8.57.0",
+    "fluent-ffmpeg": "^2.1.3"
   },
   "engines": {
     "node": ">=20.0.0"
